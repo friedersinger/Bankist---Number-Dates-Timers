@@ -10,6 +10,7 @@
 // DIFFERENT DATA! Contains movement dates, currency and locale
 
 const account1 = {
+  // js
   owner: 'Jonas Schmedtmann',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
@@ -205,8 +206,8 @@ const startLogOutTimer = function () {
     // Decrese 1s
     time--;
   };
-  // Set time to 5 minutes (in sec)
-  let time = 30;
+  // Set time to 2 minutes (in sec)
+  let time = 120;
   // Call the timer every second
   tick();
   const timer = setInterval(tick, 1000);
